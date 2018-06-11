@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ml_python_lesson1", "ml_python_lesson1\ml_python_lesson1.pyproj", "{A34B805D-0A19-4093-B5F3-55C5FEEE24A9}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ml_python_lesson2", "ml_python_lesson2\ml_python_lesson2.pyproj", "{4B7E681A-AE93-4A6C-9560-01AB00C8407B}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ml_python_lesson3", "ml_python_lesson3\ml_python_lesson3.pyproj", "{1A85A7E2-96EA-4D06-8F19-7F8D505F6259}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ml_python_lesson4", "ml_python_lesson4\ml_python_lesson4.pyproj", "{21FA2E80-10B2-4743-9A2C-63594946613D}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ml_python_lesson5", "ml_python_lesson5\ml_python_lesson5.pyproj", "{83767597-803A-4972-ADC6-562B3CAB4A7E}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ml_python_lesson6", "ml_python_lesson6\ml_python_lesson6.pyproj", "{F904FA54-22A1-43D2-ADEE-D8589D8F75A4}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ml_python_lesson7", "ml_python_lesson7\ml_python_lesson7.pyproj", "{EB3EC06D-6421-4D6E-98FD-8A3E820585E4}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ml_python_lesson8", "ml_python_lesson8\ml_python_lesson8.pyproj", "{1484BF85-94F6-4FAB-BF69-2A0FDD347B86}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ml_python_lesson9", "ml_python_lesson9\ml_python_lesson9.pyproj", "{4FF867C0-33B4-471A-992B-9E2701526A7B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A34B805D-0A19-4093-B5F3-55C5FEEE24A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A34B805D-0A19-4093-B5F3-55C5FEEE24A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B7E681A-AE93-4A6C-9560-01AB00C8407B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B7E681A-AE93-4A6C-9560-01AB00C8407B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A85A7E2-96EA-4D06-8F19-7F8D505F6259}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A85A7E2-96EA-4D06-8F19-7F8D505F6259}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21FA2E80-10B2-4743-9A2C-63594946613D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21FA2E80-10B2-4743-9A2C-63594946613D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83767597-803A-4972-ADC6-562B3CAB4A7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83767597-803A-4972-ADC6-562B3CAB4A7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F904FA54-22A1-43D2-ADEE-D8589D8F75A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F904FA54-22A1-43D2-ADEE-D8589D8F75A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB3EC06D-6421-4D6E-98FD-8A3E820585E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB3EC06D-6421-4D6E-98FD-8A3E820585E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1484BF85-94F6-4FAB-BF69-2A0FDD347B86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1484BF85-94F6-4FAB-BF69-2A0FDD347B86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FF867C0-33B4-471A-992B-9E2701526A7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FF867C0-33B4-471A-992B-9E2701526A7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F82D87B5-912D-4D61-9C2A-3A5CF2822EDF}
+	EndGlobalSection
+EndGlobal
