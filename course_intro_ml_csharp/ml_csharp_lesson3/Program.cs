@@ -42,9 +42,9 @@ namespace ml_csharp_lesson3
             housing = housing.IndexRowsWith(indices).SortRowsByKey();
 
             // create the rooms_per_person feature
-            //housing.AddColumn("rooms_per_person", housing["total_rooms"] / housing["population"]);
-            housing.AddColumn("rooms_per_person",
-               (housing["total_rooms"] / housing["population"]).Select(v => v.Value <= 4.0 ? v.Value : 4.0));
+            housing.AddColumn("rooms_per_person", housing["total_rooms"] / housing["population"]);
+            //housing.AddColumn("rooms_per_person",
+            //   (housing["total_rooms"] / housing["population"]).Select(v => v.Value <= 4.0 ? v.Value : 4.0));
 
             // calculate the correlation matrix
             var correlation = Measures.Correlation(housing.ToArray2D<double>());
