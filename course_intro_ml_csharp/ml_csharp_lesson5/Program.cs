@@ -43,7 +43,7 @@ namespace ml_csharp_lesson5
             var indices = Enumerable.Range(0, housing.Rows.KeyCount).OrderBy(v => rnd.NextDouble());
 
             // shuffle the frame using the indices
-            housing = housing.IndexRowsWith(indices).SortByRowKey();
+            housing = housing.IndexRowsWith(indices).SortRowsByKey();
 
             // convert the house value range to thousands
             housing["median_house_value"] /= 1000;
