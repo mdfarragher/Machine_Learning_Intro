@@ -78,7 +78,7 @@ namespace ml_csharp_lesson2
             // get training predictions
             //var training_predictions = model.Transform(training_features);
 
-            // set up training features and labels
+            // set up validation features and labels
             //var validation_features = validation["median_income"].Values.ToArray();
             //var validation_labels = validation["median_house_value"].Values.ToArray();
 
