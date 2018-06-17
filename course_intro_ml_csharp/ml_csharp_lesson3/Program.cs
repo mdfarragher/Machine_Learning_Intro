@@ -76,7 +76,8 @@ namespace ml_csharp_lesson3
 
             // calculate rooms_per_person histogram
             //var histogram = new Histogram();
-            //histogram.Compute(housing["rooms_per_person"].Values.ToArray(), 0.1); // use 1.0 without clipping
+            //histogram.Compute(housing["rooms_per_person"].Values.ToArray(), 1.0);
+            ////histogram.Compute(housing["rooms_per_person"].Values.ToArray(), 0.1); // use 1.0 without clipping
 
             // draw the histogram
             //var x = new List<double>();
