@@ -39,7 +39,7 @@ namespace ml_csharp_lesson3
             var indices = Enumerable.Range(0, housing.Rows.KeyCount).OrderBy(v => rnd.NextDouble());
 
             // shuffle the frame using the indices
-            housing = housing.IndexRowsWith(indices).SortByRowKey();
+            housing = housing.IndexRowsWith(indices).SortRowsByKey();
 
             // create the rooms_per_person feature
             //housing.AddColumn("rooms_per_person", housing["total_rooms"] / housing["population"]);
