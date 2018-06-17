@@ -78,7 +78,7 @@ namespace ml_csharp_lesson5
                     housing.AddColumn($"location {i},{j}", from v in vectors_cross select v[i, j]);
 
             // print the data frame
-            //housing.Print();
+            housing.Print();
 
             // create training, validation, and test frames
             var training = housing.Rows[Enumerable.Range(0, 12000)];
