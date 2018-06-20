@@ -40,7 +40,7 @@ namespace ml_csharp_lesson6
             // shuffle the frame
             var rnd = new Random();
             var indices = Enumerable.Range(0, housing.Rows.KeyCount).OrderBy(v => rnd.NextDouble());
-            housing = housing.IndexRowsWith(indices).SortByRowKey();
+            housing = housing.IndexRowsWith(indices).SortRowsByKey();
 
             // create training, validation, and test frames
             var training = housing.Rows[Enumerable.Range(0, 12000)];
