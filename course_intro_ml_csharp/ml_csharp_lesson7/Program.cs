@@ -43,7 +43,7 @@ namespace ml_csharp_lesson7
             // shuffle the frame
             var rnd = new Random();
             var indices = Enumerable.Range(0, housing.Rows.KeyCount).OrderBy(v => rnd.NextDouble());
-            housing = housing.IndexRowsWith(indices).SortByRowKey();
+            housing = housing.IndexRowsWith(indices).SortRowsByKey();
 
             // create the median_high_house_value feature
             housing.AddColumn("median_high_house_value",
