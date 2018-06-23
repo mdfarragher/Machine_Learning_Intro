@@ -21,6 +21,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ml_csharp_lesson8", "ml_csh
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ml_csharp_lesson9", "ml_csharp_lesson9\ml_csharp_lesson9.csproj", "{91B30DA9-F823-4D23-8B0D-C692BB2EFD99}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B942A04C-95FC-4D2B-8682-314CFC010CC4}"
+	ProjectSection(SolutionItems) = preProject
+		california_housing.csv = california_housing.csv
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
