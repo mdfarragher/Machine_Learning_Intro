@@ -24,8 +24,8 @@ namespace ml_csharp_lesson6
         public static void Main(string[] args)
         {
             // run lesson code
-            //Lesson6a.Run();
-            Lesson6b.Run();
+            Lesson6a.Run();
+            //Lesson6b.Run();
 
             Console.ReadLine();
         }

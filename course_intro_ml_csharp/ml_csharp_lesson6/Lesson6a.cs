@@ -24,9 +24,7 @@ namespace ml_csharp_lesson6
         {
             // get data
             Console.WriteLine("Loading data....");
-            var path = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "..");
-            path = Path.Combine(path, "..");
-            path = Path.Combine(path, "california_housing.csv");
+            var path = Path.GetFullPath(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"..\..\..\california_housing.csv"));
             var housing = Frame.ReadCsv(path, separators: ",");
             housing = housing.Where(kv => ((decimal)kv.Value["median_house_value"]) < 500000);
 
@@ -37,7 +35,7 @@ namespace ml_csharp_lesson6
             // shuffle the frame
             var rnd = new Random();
             var indices = Enumerable.Range(0, housing.Rows.KeyCount).OrderBy(v => rnd.NextDouble());
-            housing = housing.IndexRowsWith(indices).SortByRowKey();
+            housing = housing.IndexRowsWith(indices).SortRowsByKey();
 
             // create training, validation, and test frames
             var training = housing.Rows[Enumerable.Range(0, 12000)];

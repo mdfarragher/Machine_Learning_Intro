@@ -29,9 +29,7 @@ namespace ml_csharp_lesson4
 
             // get data
             Console.WriteLine("Loading data....");
-            var path = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "..");
-            path = Path.Combine(path, "..");
-            path = Path.Combine(path, "california_housing.csv");
+            var path = Path.GetFullPath(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"..\..\..\california_housing.csv"));
             var housing = Frame.ReadCsv(path, separators: ",");
             housing = housing.Where(kv => ((decimal)kv.Value["median_house_value"]) < 500000);
 
@@ -43,7 +41,7 @@ namespace ml_csharp_lesson4
             var indices = Enumerable.Range(0, housing.Rows.KeyCount).OrderBy(v => rnd.NextDouble());
 
             // shuffle the frame using the indices
-            housing = housing.IndexRowsWith(indices).SortByRowKey();
+            housing = housing.IndexRowsWith(indices).SortRowsByKey();
 
             // create the rooms_per_person feature
             housing.AddColumn("rooms_per_person",
